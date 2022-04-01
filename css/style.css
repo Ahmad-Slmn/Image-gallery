@@ -203,4 +203,10 @@ img{
         width: 40px;
         height: 40px
     }
+    
+    .row button:last-of-type{
+        position: relative;
+        top: 92px;
+        left: 0
+    }
 }
