@@ -1,0 +1,204 @@
+/* Start My Frame Work */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: arial
+}
+
+input {
+    outline: none
+}
+
+a {
+    text-decoration: none
+}
+
+img{
+    object-fit: cover
+}
+
+.active {
+    background-color: #333 !important;
+}
+
+.zoom {
+    animation: zoom-out .5s linear 1 !important
+}
+
+@keyframes zoom-out {
+
+    0% {
+        transform: scale(1.2)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+
+}
+
+/* End My Frame Work */
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #dae4ff;
+    padding-left: 6%;
+    padding-right: 6%
+}
+
+.hero nav {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center
+}
+
+.hero nav .logo {
+    flex: 1
+}
+
+
+.hero nav .logo img {
+    width: 170px
+}
+
+.hero button {
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #333;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.hero nav .menu {
+    width: 50px;
+    height: 50px;
+    background: #383737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.hero nav .menu i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer
+}
+
+
+.hero .row {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden
+}
+
+.hero .row .col-1,
+.hero .row .col-2 {
+    flex-basis: 50%;
+    overflow: hidden
+}
+
+.hero .row .col-1 {
+    padding: 8% 5%;
+    position: relative
+}
+
+.hero .row .col-1 h1 {
+    line-height: 80px;
+    letter-spacing: 2px;
+    color: #333;
+    font-size: 60px
+}
+
+.hero .row .col-1 p {
+    color: #777;
+    line-height: 22px;
+    margin: 20px 0 30px
+}
+
+.hero .row .col-1 ul {
+    position: absolute;
+    bottom: 30px
+}
+
+.hero .row .col-1 ul li {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #bfbfbf;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.hero .row .col-2 img {
+    width: 100%
+}
+
+@media(max-width:450px) {
+
+    .hero .row .col-1 p {
+        line-height: 1.7
+    }
+
+    .hero .row .col-1 h1 {
+        font-size: 20px !important
+    }
+
+    .hero {
+        padding: 0
+    }
+}
+
+@media(max-width:767px) {
+    .hero .row {
+        flex-direction: column-reverse
+    }
+
+    .hero .row .col-1 h1 {
+        line-height: normal;
+        font-size: 40px
+    }
+
+    .hero .row .col-1 {
+        padding: 0
+    }
+
+    .hero .row .col-1 p {
+        margin-top: 5px;
+        font-size: 15px
+    }
+
+    .hero .row .col-1 ul {
+        right: 0;
+        bottom: 10px
+    }
+
+    .hero nav .logo img {
+        width: 108px
+    }
+    
+    .hero button{
+        padding: 10px
+    }
+    
+    .hero nav .menu{
+        width: 40px;
+        height: 40px
+    }
+}
