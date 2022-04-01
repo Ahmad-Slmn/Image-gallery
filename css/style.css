@@ -135,7 +135,7 @@ img{
 .hero .row .col-1 ul {
     position: absolute;
     bottom: 30px;
-    
+    left: 100px
 }
 
 .hero .row .col-1 ul li {
@@ -188,7 +188,7 @@ img{
     }
 
     .hero .row .col-1 ul {
-        right: 0;
+        left: 290px;
         bottom: 10px
     }
 
