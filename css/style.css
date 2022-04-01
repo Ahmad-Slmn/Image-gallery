@@ -161,7 +161,8 @@ img{
     }
 
     .hero {
-        padding: 0
+        padding: 0;
+        height: fit-content !importan
     }
 }
 
