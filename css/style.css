@@ -102,6 +102,7 @@ img{
 .hero .row {
     display: flex;
     width: 100%;
+    height: 525px;
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden
