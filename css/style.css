@@ -45,7 +45,7 @@ img{
 
 .hero {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #dae4ff;
     padding-left: 6%;
     padding-right: 6%
@@ -161,8 +161,7 @@ img{
     }
 
     .hero {
-        padding: 0;
-        height: fit-content !importan
+        padding: 0
     }
 }
 
