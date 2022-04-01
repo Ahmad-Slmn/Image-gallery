@@ -17,7 +17,7 @@ a {
     text-decoration: none
 }
 
-img{
+img {
     object-fit: cover
 }
 
@@ -133,8 +133,9 @@ img{
 }
 
 .hero .row .col-1 ul {
-    position: absolute;
-    bottom: 30px
+    position: relative;
+    top: 30px;
+    left: 30px
 }
 
 .hero .row .col-1 ul li {
@@ -174,7 +175,8 @@ img{
 
     .hero .row .col-1 h1 {
         line-height: normal;
-        font-size: 40px
+        font-size: 40px;
+        margin-bottom: 5px
     }
 
     .hero .row .col-1 {
@@ -182,29 +184,29 @@ img{
     }
 
     .hero .row .col-1 p {
-        margin-top: 5px;
-        font-size: 15px
+        font-size: 15px;
+        margin: 0
     }
 
     .hero .row .col-1 ul {
-        right: 0;
-        bottom: 10px
+        left: 300px;
+        top: 60px
     }
 
     .hero nav .logo img {
         width: 108px
     }
-    
-    .hero button{
+
+    .hero button {
         padding: 10px
     }
-    
-    .hero nav .menu{
+
+    .hero nav .menu {
         width: 40px;
         height: 40px
     }
-    
-    .row button:last-of-type{
+
+    .row button:last-of-type {
         position: relative;
         top: 92px;
         left: 0
